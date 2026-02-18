@@ -1,0 +1,102 @@
+/* ===== БАЗА ===== */
+
+body {
+  margin: 0;
+  background: #efefef;
+  font-family: 'YourFontName', sans-serif; /* встав сюди свій шрифт */
+  color: #000;
+}
+
+/* ===== HEADER ===== */
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 80px;
+  font-weight: 700;
+}
+
+.logo-left {
+  border: 2px solid black;
+  padding: 8px 14px;
+}
+
+.logo-right {
+  font-weight: 700;
+}
+
+/* ===== HERO ===== */
+
+.hero {
+  padding: 0 80px;
+  margin-top: 20px;
+}
+
+.hero h1 {
+  font-size: 120px;
+  line-height: 0.9;
+  margin: 0;
+  font-weight: 900;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+/* ===== CONTENT ===== */
+
+.content {
+  display: grid;
+  grid-template-columns: 520px 1fr;
+  gap: 100px;
+  padding: 80px;
+  align-items: start;
+}
+
+/* ===== PREVIEW ===== */
+
+.preview-box {
+  width: 520px;
+  height: 520px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+/* ===== BUTTONS ===== */
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+button {
+  font-size: 20px;
+  padding: 14px 28px;
+  cursor: pointer;
+  border: 2px solid black;
+  background: none;
+  font-weight: 700;
+}
+
+.btn-black {
+  background: black;
+  color: white;
+}
+
+/* ===== COLOR GRID ===== */
+
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 140px);
+  gap: 40px 60px;
+}
+
+.color-grid img {
+  width: 140px;
+  cursor: pointer;
+}
